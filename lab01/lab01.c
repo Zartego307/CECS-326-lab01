@@ -3,8 +3,6 @@ CECS 326 - Lab 01 (pthread_cancel)
 
 NAME: Diego Ortega-Salazar
 
-QUESTIONS (long-form):
-
 1) Explain what pthread is doing in this program. Be specific.
 - "pthread" (POSIX threads) is the library that lets one process run multiple threads of execution at the same time.
 - In this program, the main thread calls pthread_create() to spawn a second thread (worker thread).
